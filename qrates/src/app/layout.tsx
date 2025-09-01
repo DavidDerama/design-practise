@@ -26,9 +26,9 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="en">
+    <html lang="en" suppressHydrationWarning>
       <body
-        className={`antialiased ${siteFont.className} min-h-screen flex flex-col`}
+        className={`antialiased ${siteFont.className} min-h-screen flex flex-col overflow-x-hidden`}
       >
         <ThemeProvider attribute="class" forcedTheme="light">
           {children}

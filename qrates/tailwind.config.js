@@ -21,13 +21,17 @@ module.exports = {
         darkTextBody: "#C2C2C2",
         darkTextLabel: "#A2A2A2",
 
-        lightTextHeading: "#2E2E2E",
-        lightTextBody: "#81836C",
-        lightTextLabel: "#E280FF",
+        darkTextHeading: "#E2E2E2",
+        darkTextBody: "#C2C2C2",
+        darkTextLabel: "#A2A2A2",
 
-        brandYellow: "",
-        brandBrown: "",
-        brandPurple: "",
+        lightTextHeading: "#2E2E2E",
+        lightTextBody: "#4E4E4E",
+        lightTextLabel: "#6E6E6E",
+
+        brandYellow: "#FFF804",
+        brandBrown: "#81836C",
+        brandPurple: "#E280FF",
 
         background: "hsl(var(--background))",
         foreground: "hsl(var(--foreground))",

@@ -1,15 +1,25 @@
 import Header from "@/components/layouts/Header";
-import Hero from "@/components/layouts/Hero";
+import HeroSection from "@/components/sections/HeroSection";
 import Main from "@/components/layouts/Main";
-import Statement from "@/components/sections/Statement";
+import ProcessSection from "@/components/sections/process/ProcessSection";
+import ServicesSection from "@/components/sections/services/ServicesSection";
+import SmallCtaSection from "@/components/sections/small-cta/SmallCtaSection";
+import StatementSection from "@/components/sections/StatementSection";
+import SupportSection from "@/components/sections/support/SupportSection";
+import CommunitySection from "@/components/sections/community/CommunitySection";
 
 export default function Home() {
   return (
     <>
       <Header />
       <Main>
-        <Hero />
-        <Statement />
+        <HeroSection />
+        <StatementSection />
+        <ProcessSection />
+        <SmallCtaSection />
+        <ServicesSection />
+        <SupportSection />
+        <CommunitySection />
       </Main>
     </>
   );
