@@ -18,7 +18,7 @@ export default function Section({
     return (
       <section
         className={cn(
-          "w-full mx-auto max-w-screen-2xl px-6",
+          "w-full mx-auto max-w-screen-2xl px-6 sm:px-0",
           spacing === "sm" && "py-10",
           spacing === "base" && "py-20",
           spacing === "lg" && "py-28",
@@ -34,7 +34,7 @@ export default function Section({
     <section>
       <div
         className={cn(
-          "w-full mx-auto max-w-screen-2xl px-6",
+          "w-full mx-auto max-w-screen-2xl px-6 sm:px-0",
           spacing === "sm" && "py-10",
           spacing === "base" && "py-20",
           spacing === "lg" && "py-28",

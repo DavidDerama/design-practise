@@ -2,7 +2,7 @@ import Section from "./Section";
 import { Button } from "../ui/button";
 import Link from "next/link";
 import Image from "next/image";
-import HamburgerMenu from "../HamburgerMenu";
+import HamburgerMenu from "../sections/header/HamburgerMenu";
 import { ShoppingCart } from "lucide-react";
 
 export default function Header() {

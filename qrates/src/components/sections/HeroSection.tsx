@@ -30,7 +30,7 @@ export default function HeroSection() {
           width={1200}
           height={1600}
           alt="SECOND HERO IMAGE"
-          className="absolute border-2 border-black bottom-[-10%] left-[-5%] w-[60%] -rotate-12"
+          className="absolute border-2 border-black bottom-[-5%] left-[-5%] w-[60%] -rotate-12"
           src="/second-hero.png"
         />
         <div className="absolute overflow-visible bottom-[10%] right-[10%] w-[25%]">

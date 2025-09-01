@@ -2,7 +2,18 @@ import Image from "next/image";
 
 export default function CommunityGallery() {
   return (
-    <div className="flex w-full h-[100vh] border-black border-y-2">
+    <div className="flex w-full h-[100vh] border-black border-y-2 relative">
+      <div className="absolute z-50 right-[10%] xl:-top-32 -top-16">
+        <div className="relative inset-0 xl:size-52 size-24">
+          <Image
+            width={4773}
+            height={3767}
+            alt="COMMUNITY ILLUSTRATION"
+            src={"/community/community-eyes.png"}
+            className="absolute object-contain w-full h-full"
+          />
+        </div>
+      </div>
       <div className="relative flex-grow hidden overflow-y-hidden xl:block">
         <Image
           src={"/community/community-large.jpg"}

@@ -77,7 +77,7 @@ export default function HamburgerMenu() {
             </li>
           </ul>
         </nav>
-        <ul className="flex gap-4 pl-5 mt-4">
+        <ul className="flex gap-3 pl-5 mt-4">
           <li>
             <Link href={"/"}>
               <Image

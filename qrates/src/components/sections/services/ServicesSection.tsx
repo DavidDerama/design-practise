@@ -15,7 +15,7 @@ export default function ServicesSection() {
       spacing="base"
     >
       <div className="flex flex-col items-center max-w-2xl gap-14">
-        <div className="flex flex-col items-center max-w-sm gap-4">
+        <div className="flex flex-col items-center max-w-sm gap-6">
           <Badge>Our Services</Badge>
           <SectionHeading className="text-center">
             YOU MAKE MUSIC. <br /> WE DO THE REST.
