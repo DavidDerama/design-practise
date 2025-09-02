@@ -1,10 +1,10 @@
-import SectionDescription from "@/components/text/SectionDescription";
 import SectionHeading from "@/components/text/SectionHeading";
 import { Badge } from "@/components/ui/badge";
 import { Button } from "@/components/ui/button";
 import Link from "next/link";
 import CommunityGallery from "./CommunityGallery";
 import CommunityCreators from "./CommunityCreators";
+import Paragraph from "@/components/text/Paragraph";
 
 export default function CommunitySection() {
   return (
@@ -14,10 +14,10 @@ export default function CommunitySection() {
         <SectionHeading className="text-center">
           Join a growing community.
         </SectionHeading>
-        <SectionDescription className="text-center">
+        <Paragraph className="text-center">
           We’re building a home for the next generation of vinyl lovers. Get in
           front of fans, connect with artists, labels and stores.
-        </SectionDescription>
+        </Paragraph>
         <Button
           className="px-20 py-6 font-bold border-2 border-black rounded-full md:text-base"
           variant={"outline"}

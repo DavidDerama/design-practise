@@ -6,6 +6,7 @@ type SectionProps = {
   children: ReactNode;
   spacing?: "sm" | "base" | "lg";
   header?: boolean;
+  outerClassName?: string;
 };
 
 export default function Section({
@@ -13,12 +14,13 @@ export default function Section({
   className,
   spacing,
   header = false,
+  outerClassName,
 }: SectionProps) {
   if (header) {
     return (
       <section
         className={cn(
-          "w-full mx-auto max-w-screen-2xl px-6 sm:px-0",
+          "w-full mx-auto max-w-screen-2xl px-6 2xl:px-0",
           spacing === "sm" && "py-10",
           spacing === "base" && "py-20",
           spacing === "lg" && "py-28",
@@ -31,10 +33,10 @@ export default function Section({
   }
 
   return (
-    <section>
+    <section className={outerClassName}>
       <div
         className={cn(
-          "w-full mx-auto max-w-screen-2xl px-6 sm:px-0",
+          "w-full mx-auto max-w-screen-2xl px-6 2xl:px-0",
           spacing === "sm" && "py-10",
           spacing === "base" && "py-20",
           spacing === "lg" && "py-28",

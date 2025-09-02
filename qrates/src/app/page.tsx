@@ -7,6 +7,9 @@ import SmallCtaSection from "@/components/sections/small-cta/SmallCtaSection";
 import StatementSection from "@/components/sections/StatementSection";
 import SupportSection from "@/components/sections/support/SupportSection";
 import CommunitySection from "@/components/sections/community/CommunitySection";
+import TestimonialsSection from "@/components/sections/testimonials/TestimonialsSection";
+import LargeCtaSection from "@/components/sections/large-cta/LargeCtaSection";
+import Footer from "@/components/layouts/Footer";
 
 export default function Home() {
   return (
@@ -20,6 +23,9 @@ export default function Home() {
         <ServicesSection />
         <SupportSection />
         <CommunitySection />
+        <TestimonialsSection />
+        <LargeCtaSection />
+        <Footer />
       </Main>
     </>
   );

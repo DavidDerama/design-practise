@@ -32,6 +32,7 @@ module.exports = {
         brandYellow: "#FFF804",
         brandBrown: "#81836C",
         brandPurple: "#E280FF",
+        brandOrange: "#FF6711",
 
         background: "hsl(var(--background))",
         foreground: "hsl(var(--foreground))",
