@@ -12,7 +12,7 @@ type FooterGroupProps = {
 export default function FooterGroup({ groupName, links }: FooterGroupProps) {
   const linksEl = links.map(({ name, href }) => {
     return (
-      <li>
+      <li key={name}>
         <Paragraph>
           <Link href={href}>{name}</Link>
         </Paragraph>
