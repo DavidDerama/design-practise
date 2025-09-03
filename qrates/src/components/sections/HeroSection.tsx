@@ -7,10 +7,7 @@ import { AspectRatio } from "@radix-ui/react-aspect-ratio";
 
 export default function HeroSection() {
   return (
-    <Section
-      spacing="base"
-      className="flex items-start xl:justify-between xl:flex-row flex-col xl:gap-0 gap-20 md:min-h-[260vh] xl:min-h-[160vh]"
-    >
+    <Section className="flex items-start xl:justify-between xl:flex-row flex-col xl:gap-0 gap-20 md:min-h-[260vh] xl:min-h-[160vh] xl:py-28">
       <div className="flex flex-col items-start max-w-screen-sm gap-8 mt-32">
         <Badge>WHY QRATES?</Badge>
         <PageHeading>Your music on vinyl. Without the barriers.</PageHeading>
