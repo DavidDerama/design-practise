@@ -11,7 +11,7 @@ import ServicesFaq from "./ServicesFaq";
 export default function ServicesSection() {
   return (
     <Section
-      className="flex flex-col gap-10 xl:flex-row xl:justify-between"
+      className="flex flex-col items-center gap-10 xl:flex-row xl:justify-between"
       spacing="base"
     >
       <div className="flex flex-col items-center max-w-2xl gap-14">
