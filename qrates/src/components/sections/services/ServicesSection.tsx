@@ -28,6 +28,7 @@ export default function ServicesSection() {
               src="/services/services-piano-man.jpg"
               fill
               className="object-cover w-full h-full border-2 border-black -rotate-6"
+              sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
             />
           </AspectRatio>
         </div>

@@ -15,8 +15,10 @@ export default function TestimonialImg({
     src && (
       <Image
         src={src}
-        width={width}
-        height={height}
+        // width={width}
+        // height={height}
+        fill
+        sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
         alt="TESTIMONIAL IMAGE"
         className="absolute object-cover w-full h-full"
       />

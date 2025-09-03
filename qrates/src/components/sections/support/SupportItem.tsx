@@ -41,8 +41,8 @@ export default function SupportItem({
           <AspectRatio ratio={16 / 9} className="relative inset-0">
             <Image
               alt="SUPPORT IMAGE"
-              width={width}
-              height={height}
+              fill
+              sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
               className="absolute object-cover w-full h-full border-2 border-black"
               src={src}
             />

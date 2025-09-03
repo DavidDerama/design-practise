@@ -18,8 +18,8 @@ export default function CommunityGallery() {
         <Image
           src={"/community/community-large.jpg"}
           alt="COMMUNITY GALLERY IMAGE"
-          width={2160}
-          height={2160}
+          fill
+          sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
           className="absolute object-cover w-full h-full"
         />
       </div>
@@ -29,8 +29,8 @@ export default function CommunityGallery() {
             <Image
               src={"/community/community-top-left.jpg"}
               alt="COMMUNITY GALLERY IMAGE"
-              width={2160}
-              height={2160}
+              fill
+              sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
               className="absolute object-cover w-full h-full"
             />
           </div>
@@ -38,8 +38,8 @@ export default function CommunityGallery() {
             <Image
               src={"/community/community-top-right.jpg"}
               alt="COMMUNITY GALLERY IMAGE"
-              width={1804}
-              height={1804}
+              fill
+              sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
               className="absolute object-cover w-full h-full"
             />
           </div>
@@ -49,8 +49,8 @@ export default function CommunityGallery() {
             <Image
               src={"/community/community-bottom-left.jpg"}
               alt="COMMUNITY GALLERY IMAGE"
-              width={1080}
-              height={1162}
+              fill
+              sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
               className="absolute object-cover w-full h-full"
             />
           </div>
@@ -58,8 +58,8 @@ export default function CommunityGallery() {
             <Image
               src={"/community/community-bottom-right.jpg"}
               alt="COMMUNITY GALLERY IMAGE"
-              width={2160}
-              height={2700}
+              fill
+              sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
               className="absolute object-cover w-full h-full"
             />
           </div>
