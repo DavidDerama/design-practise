@@ -10,7 +10,7 @@ export default function Header() {
     <header>
       <Section
         className={"flex justify-between items-center lg:py-6 py-4 px-4"}
-        header={true}
+        outerLayer={false}
       >
         <Link href={"/"}>
           <Image

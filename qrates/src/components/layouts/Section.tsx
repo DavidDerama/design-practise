@@ -5,7 +5,7 @@ type SectionProps = {
   className?: string;
   children: ReactNode;
   spacing?: "sm" | "base" | "lg";
-  header?: boolean;
+  outerLayer?: boolean;
   outerClassName?: string;
 };
 
@@ -13,10 +13,10 @@ export default function Section({
   children,
   className,
   spacing,
-  header = false,
+  outerLayer = false,
   outerClassName,
 }: SectionProps) {
-  if (header) {
+  if (!outerLayer) {
     return (
       <section
         className={cn(
