@@ -3,6 +3,7 @@ import PageHeading from "../text/PageHeading";
 import SectionDescription from "../text/SectionDescription";
 import { Badge } from "../ui/badge";
 import Section from "../layouts/Section";
+import { AspectRatio } from "@radix-ui/react-aspect-ratio";
 
 export default function HeroSection() {
   return (
@@ -19,22 +20,36 @@ export default function HeroSection() {
         </SectionDescription>
       </div>
       <div className="relative w-full max-w-screen-xl mx-auto aspect-[3/4]">
-        <Image
-          width={1200}
-          height={1600}
-          alt="HERO IMAGE"
-          className="absolute border-2 border-black top-0 right-[0%] w-[60%] rotate-12"
-          src="/hero/hero.png"
-          priority={true}
-        />
-        <Image
-          width={1200}
-          height={1600}
-          alt="SECOND HERO IMAGE"
-          className="absolute border-2 border-black bottom-[-5%] left-[-5%] w-[60%] -rotate-12"
-          src="/hero/second-hero.png"
-          priority={true}
-        />
+        <div className="absolute top-0 right-[0%] w-[60%] rotate-12">
+          <AspectRatio
+            ratio={3 / 4}
+            className="relative inset-0 border-2 border-black"
+          >
+            <Image
+              fill
+              alt="HERO IMAGE"
+              src="/hero/hero.png"
+              sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
+              priority
+              className="object-cover w-full h-full"
+            />
+          </AspectRatio>
+        </div>
+        <div className="absolute bottom-[-5%] left-[-5%] w-[60%] -rotate-12">
+          <AspectRatio
+            ratio={3 / 4}
+            className="relative inset-0 border-2 border-black"
+          >
+            <Image
+              fill
+              sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
+              alt="SECOND HERO IMAGE"
+              className="absolute w-full h-full"
+              src="/hero/second-hero.png"
+              priority
+            />
+          </AspectRatio>
+        </div>
         <div className="absolute overflow-visible bottom-[10%] right-[10%] w-[25%]">
           <img
             alt="HERO ILLUSTRATION"
