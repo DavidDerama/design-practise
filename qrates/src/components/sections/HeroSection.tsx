@@ -24,21 +24,23 @@ export default function HeroSection() {
           height={1600}
           alt="HERO IMAGE"
           className="absolute border-2 border-black top-0 right-[0%] w-[60%] rotate-12"
-          src="/hero.png"
+          src="/hero/hero.png"
+          priority={true}
         />
         <Image
           width={1200}
           height={1600}
           alt="SECOND HERO IMAGE"
           className="absolute border-2 border-black bottom-[-5%] left-[-5%] w-[60%] -rotate-12"
-          src="/second-hero.png"
+          src="/hero/second-hero.png"
+          priority={true}
         />
         <div className="absolute overflow-visible bottom-[10%] right-[10%] w-[25%]">
-          <Image
+          <img
             alt="HERO ILLUSTRATION"
             width={464}
             height={514}
-            src={"/hero-illustration.png"}
+            src={"/hero/hero-illustration.png"}
             className="object-cover w-full h-full"
           />
         </div>

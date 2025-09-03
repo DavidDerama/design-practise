@@ -5,7 +5,7 @@ export default function CommunityGallery() {
     <div className="flex w-full h-[100vh] border-black border-y-2 relative">
       <div className="absolute z-50 right-[10%] xl:-top-32 -top-16">
         <div className="relative inset-0 xl:size-52 size-24">
-          <Image
+          <img
             width={4773}
             height={3767}
             alt="COMMUNITY ILLUSTRATION"

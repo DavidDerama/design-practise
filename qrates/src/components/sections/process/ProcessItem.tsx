@@ -4,7 +4,6 @@ import { Button } from "../../ui/button";
 import { Badge } from "../../ui/badge";
 import { cn } from "@/lib/utils";
 import Link from "next/link";
-import Image from "next/image";
 import { AspectRatio } from "@radix-ui/react-aspect-ratio";
 
 type ProcessItemProps = {
@@ -39,7 +38,7 @@ export default function ProcessItem({
         <ItemHeading>{heading}</ItemHeading>
         <Paragraph className="text-center">{description}</Paragraph>
         <AspectRatio ratio={4 / 3} className="relative inset-0 w-full">
-          <Image
+          <img
             src={imgSrc}
             width={6000}
             height={4359}

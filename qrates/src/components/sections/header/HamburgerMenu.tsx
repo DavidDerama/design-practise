@@ -29,7 +29,7 @@ export default function HamburgerMenu() {
           <SheetTitle className="sr-only">Menu</SheetTitle>
           <SheetDescription className="sr-only">Description</SheetDescription>
           <Link href={"/"}>
-            <Image
+            <img
               src="/shared/logo.svg"
               height={150}
               width={100}
@@ -115,7 +115,7 @@ export default function HamburgerMenu() {
         <SheetFooter className="relative flex flex-col gap-2">
           <div className="absolute right-10 -top-20">
             <div className="relative inset-0 w-20">
-              <Image
+              <img
                 src={"/header/header-peace.png"}
                 alt="MENU FOOTER DECORATION"
                 className="w-full h-full"

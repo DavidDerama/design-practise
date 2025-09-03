@@ -18,7 +18,7 @@ export default function DisplayVinyl({
       <div className="w-[40%] relative">
         <div className="absolute z-50 -top-12 xl:-top-14 -right-[70%] xl:-right-[50%]">
           <div className="relative inset-0 xl:size-52 size-24">
-            <Image
+            <img
               width={4049}
               height={5316}
               alt="LARGE CTA DECORATION"
