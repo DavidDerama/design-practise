@@ -23,7 +23,7 @@ export default function HamburgerMenu() {
       </SheetTrigger>
       <SheetContent
         side={"top"}
-        className="[&>button]:hidden flex flex-col gap-4"
+        className="[&>button]:hidden flex flex-col gap-4 max-w-[100vw]"
       >
         <SheetHeader className="flex flex-row items-center justify-between py-4 border-b-2 border-black">
           <SheetTitle className="sr-only">Menu</SheetTitle>
