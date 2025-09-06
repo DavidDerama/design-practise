@@ -36,9 +36,7 @@ export default function LargeCtaSection() {
       spacing="base"
     >
       <div className="flex flex-col items-center max-w-screen-sm gap-6 mx-auto">
-        <Badge className="text-center text-white bg-transparent border-2 border-white">
-          VINYL STUDIO
-        </Badge>
+        <Badge>VINYL STUDIO</Badge>
         <SectionHeading className="text-center">
           Make it real with Qrates Vinyl Studio
         </SectionHeading>
