@@ -13,7 +13,7 @@ export default function Section({
   children,
   className,
   spacing,
-  outerLayer = false,
+  outerLayer = true,
   outerClassName,
 }: SectionProps) {
   if (!outerLayer) {
