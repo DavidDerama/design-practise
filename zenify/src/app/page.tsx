@@ -1,7 +1,7 @@
 export default function Home() {
   return (
-    <div>
-      <h1>dasasd</h1>
-    </div>
+    <>
+      <h1>Zenify</h1>
+    </>
   );
 }
